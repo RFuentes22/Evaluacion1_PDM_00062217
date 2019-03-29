@@ -71,7 +71,7 @@
                 android:text="Producto 1"
                 />
             <TextView
-                android:id="@+id/count1"
+                android:id="@+id/Act2_count1"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                 android:text="Producto 2"
                 />
             <TextView
-                android:id="@+id/count2"
+                android:id="@+id/Act2_count2"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -121,7 +121,7 @@
                 android:text="Producto 3"
                 />
             <TextView
-                android:id="@+id/count3"
+                android:id="@+id/Act2_count3"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -146,7 +146,7 @@
                 android:text="Producto 4"
                 />
             <TextView
-                android:id="@+id/count4"
+                android:id="@+id/Act2_count4"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -171,7 +171,7 @@
                 android:text="Producto 5"
                 />
             <TextView
-                android:id="@+id/count5"
+                android:id="@+id/Act2_count5"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -194,7 +194,7 @@
                 android:text="Producto 6"
                 />
             <TextView
-                android:id="@+id/count6"
+                android:id="@+id/Act2_count6"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -219,7 +219,7 @@
                 android:text="Producto 7"
                 />
             <TextView
-                android:id="@+id/count7"
+                android:id="@+id/Act2_count7"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -242,7 +242,7 @@
                 android:text="Producto 8"
                 />
             <TextView
-                android:id="@+id/count8"
+                android:id="@+id/Act2_count8"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -265,7 +265,7 @@
                 android:text="Producto 9"
                 />
             <TextView
-                android:id="@+id/count9"
+                android:id="@+id/Act2_count9"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

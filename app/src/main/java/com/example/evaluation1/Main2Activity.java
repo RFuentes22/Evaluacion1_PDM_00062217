@@ -22,15 +22,15 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity2_main);
         mTextView_User = findViewById(R.id.act2_user);
         mTextView_Email = findViewById(R.id.act2_email);
-        textPro1 = findViewById(R.id.count1);
-        textPro2 = findViewById(R.id.count2);
-        textPro3 = findViewById(R.id.count3);
-        textPro4 = findViewById(R.id.count4);
-        textPro5 = findViewById(R.id.count5);
-        textPro6 = findViewById(R.id.count6);
-        textPro7 = findViewById(R.id.count7);
-        textPro8 = findViewById(R.id.count8);
-        textPro9 = findViewById(R.id.count9);
+        textPro1 = findViewById(R.id.Act2_count1);
+        textPro2 = findViewById(R.id.Act2_count2);
+        textPro3 = findViewById(R.id.Act2_count3);
+        textPro4 = findViewById(R.id.Act2_count4);
+        textPro5 = findViewById(R.id.Act2_count5);
+        textPro6 = findViewById(R.id.Act2_count6);
+        textPro7 = findViewById(R.id.Act2_count7);
+        textPro8 = findViewById(R.id.Act2_count8);
+        textPro9 = findViewById(R.id.Act2_count9);
         mTextView_Total = findViewById(R.id.act2_total);
         mShare = findViewById(R.id.btnshare);
         Intent mIntent = getIntent();
@@ -43,6 +43,15 @@ public class Main2Activity extends AppCompatActivity {
                 mTextView_User.setText(mTextView_User.getText() + " " + jobj.get("user") );
                 mTextView_Email.setText(mTextView_Email.getText() + " " + jobj.get("email"));
                 mTextView_Total.setText(mTextView_Total.getText() + " " + jobj.get("sumPro"));
+                textPro1.setText(jobj.getString("nPro1"));
+                textPro2.setText(jobj.getString("nPro2"));
+                textPro3.setText(jobj.getString("nPro3"));
+                textPro4.setText(jobj.getString("nPro4"));
+                textPro5.setText(jobj.getString("nPro5"));
+                textPro6.setText(jobj.getString("nPro6"));
+                textPro7.setText(jobj.getString("nPro7"));
+                textPro8.setText(jobj.getString("nPro8"));
+                textPro9.setText(jobj.getString("nPro9"));
 
 
             }
@@ -61,7 +70,7 @@ public class Main2Activity extends AppCompatActivity {
 
 
                 mIntent2.putExtra("JSON", String.valueOf(jobj));
-                //startActivity(mIntent2);
+                startActivity(mIntent2);
             });
         } catch (JSONException e) {
             e.printStackTrace();

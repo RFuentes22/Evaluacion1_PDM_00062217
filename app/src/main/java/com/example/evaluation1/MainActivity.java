@@ -113,6 +113,17 @@ public class MainActivity extends AppCompatActivity {
                 json.put("user",user);
                 json.put("email",email);
                 json.put("sumPro",sumPro);
+                json.put("nPro1",p1);
+                json.put("nPro2",p2);
+                json.put("nPro3",p3);
+                json.put("nPro4",p4);
+                json.put("nPro5",p5);
+                json.put("nPro6",p6);
+                json.put("nPro7",p7);
+                json.put("nPro8",p8);
+                json.put("nPro9",p9);
+
+
 
             }
             catch (JSONException e){
